@@ -1,0 +1,22 @@
+{
+  "name": "2amigos/yii2-switchery-widget",
+  "description": "iOS 7 style switch widget for Yii2.",
+  "keywords": ["yii", "extension", "widget", "switch", "switchery"],
+  "type": "yii2-extension",
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Nikola Radovic",
+      "email": "nikola@2amigos.us",
+      "homepage": "http://2amigos.us"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "dosamigos\\switchery\\": ""
+    }
+  }
+}
