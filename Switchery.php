@@ -5,21 +5,29 @@
  * @license http://www.opensource.org/licenses/bsd-license.php New BSD License
  */
 
-namespace app\widgets\switchery;
+namespace dosamigos\switchery;
 
 use yii\helpers\Json;
 use yii\helpers\Html;
 use yii\widgets\InputWidget;
 
 /**
- * Switchery renders a checkbox type toggle switch control. For example:
+ * Switchery renders a checkbox type iOS style toggle switch control. For example:
  *
  * ```
+ * $form->field($model, 'attribute')->widget(Switchery::className(), [
+ *     'options' => [
+ *         'label' => false
+ *     ],
+ *     'clientOptions' => [
+ *         'color' => '#5fbeaa',
+ *     ]
+ * ])
  * ```
  *
  * @author Nikola Radovic <nikola.radovic@2amigos.us>
  * @link http://www.2amigos.us/
- * @package dosamigos\switchinput
+ * @package dosamigos\switchery
  */
 class Switchery extends InputWidget
 {

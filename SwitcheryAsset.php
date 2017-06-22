@@ -4,7 +4,8 @@
  * @link http://2amigos.us
  * @license http://www.opensource.org/licenses/bsd-license.php New BSD License
  */
-namespace app\widgets\switchery;
+
+namespace dosamigos\switchery;
 
 use yii\web\AssetBundle;
 
@@ -15,7 +16,7 @@ use yii\web\AssetBundle;
  */
 class SwitcheryAsset extends AssetBundle
 {
-    public $sourcePath = '@app/widgets/switchery/assets';
+    public $sourcePath = '@vendor/2amigos/yii2-switchery-widget/assets';
 
     public function init()
     {
