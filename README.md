@@ -1,22 +1,31 @@
-yii2-widget-switchery
-======================
+# yii2-switchery-widget
 
+[![Latest Version](https://img.shields.io/github/release/2amigos/yii2-switchery-widget.svg?style=flat-square)](https://github.com/2amigos/yii2-switchery-widget/releases)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
+[![Build Status](https://img.shields.io/travis/2amigos/yii2-switchery-widget/master.svg?style=flat-square)](https://travis-ci.org/2amigos/yii2-switchery-widget)
+[![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/2amigos/:package_name.svg?style=flat-square)](https://scrutinizer-ci.com/g/2amigos/yii2-switchery-widget/code-structure)
+[![Quality Score](https://img.shields.io/scrutinizer/g/2amigos/yii2-switchery-widget.svg?style=flat-square)](https://scrutinizer-ci.com/g/2amigos/yii2-switchery-widget)
+[![Total Downloads](https://img.shields.io/packagist/dt/2amigos/yii2-switchery-widget.svg?style=flat-square)](https://packagist.org/packages/2amigos/yii2-switchery-widget)
 
-Yii2 wrapper for [iOS 7 style switches](http://abpetkov.github.io/switchery/) for your checkboxes 
+**Note:** Replace ```:author_name``` ```:author_username``` ```:author_website``` ```:author_email``` ```:package_name```
+```:package_description``` with theirs correct values in [README.md](README.md), [CHANGELOG.md](CHANGELOG.md),
+[CONTRIBUTING.md](CONTRIBUTING.md), [LICENSE.md](LICENSE.md) and [composer.json](composer.json) files, then delete this
+line.
 
-## Installation
+This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what
+PSRs you support to avoid any confusion with users and contributors.
 
-Not available yet, but it would probably be something like this:
+## Install
 
-To install it manually 
+Via Composer
 
-```
-$ php composer.phar require 2amigos/yii2-switchery-widget "*"
+```bash
+$ composer require 2amigos/yii2-switchery-widget
 ```
 
 or add inside compsoer.json
 
-```
+```bash
 "2amigos/yii2-switchery-widget": "*"
 ```
 
@@ -59,3 +68,28 @@ echo Switchery::widget([
 
 
 ```
+
+## Testing
+
+```bash
+$ phpunit
+```
+
+## Contributing
+
+Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
+
+## Credits
+
+- [Nikola Radovic](https://github.com/dzona)
+- [All Contributors](../../contributors)
+
+## License
+
+The BSD License (BSD). Please see [License File](LICENSE.md) for more information.
+
+<blockquote>
+    <a href="http://www.2amigos.us"><img src="http://www.gravatar.com/avatar/55363394d72945ff7ed312556ec041e0.png"></a><br>
+    <i>web development has never been so fun</i><br>
+    <a href="http://www.2amigos.us">www.2amigos.us</a>
+</blockquote>
