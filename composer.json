@@ -1,22 +1,45 @@
 {
   "name": "2amigos/yii2-switchery-widget",
   "description": "iOS 7 style switch widget for Yii2.",
-  "keywords": ["yii", "extension", "widget", "switch", "switchery"],
   "type": "yii2-extension",
+  "keywords": [
+    "2amigos",
+    "yii",
+    "yii2",
+    "yii 2",
+    "extension",
+    ":package_type",
+    ":package_name"
+  ],
+  "homepage": "https://github.com/2amigos/:package_name",
   "license": "BSD-3-Clause",
   "authors": [
     {
       "name": "Nikola Radovic",
       "email": "nikola@2amigos.us",
-      "homepage": "http://2amigos.us"
+      "homepage": "http://2amigos.us",
+      "role": "Developer"
     }
   ],
+  "support": {
+    "issues": "https://github.com/2amigos/yii2-switchery-widget/issues",
+    "source": "https://github.com/2amigos/yii2-switchery-widget"
+  },
   "require": {
-    "yiisoft/yii2": "*"
+    "yiisoft/yii2": "*",
+    "bower-asset/switchery": "0.8.*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0"
   },
   "autoload": {
     "psr-4": {
-      "dosamigos\\switchery\\": ""
+      "dosamigos\\switchery\\": "src"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
     }
   }
 }
