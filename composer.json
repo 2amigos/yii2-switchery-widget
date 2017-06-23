@@ -7,9 +7,8 @@
     "yii",
     "yii2",
     "yii 2",
-    "extension",
-    ":package_type",
-    ":package_name"
+    "extension"
+    "switchery"
   ],
   "homepage": "https://github.com/2amigos/:package_name",
   "license": "BSD-3-Clause",
