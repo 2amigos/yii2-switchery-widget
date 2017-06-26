@@ -16,7 +16,7 @@ use yii\web\AssetBundle;
  */
 class SwitcheryAsset extends AssetBundle
 {
-    public $sourcePath = '@bower/bootstrap-switch/dist';
+    public $sourcePath = '@bower/switchery/dist';
 
     public function init()
     {
