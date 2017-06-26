@@ -10,7 +10,7 @@
     "extension",
     "switchery"
   ],
-  "homepage": "https://github.com/2amigos/:package_name",
+  "homepage": "https://github.com/2amigos/yii2-switchery-widget",
   "license": "BSD-3-Clause",
   "authors": [
     {
