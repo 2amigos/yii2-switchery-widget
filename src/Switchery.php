@@ -85,7 +85,7 @@ class Switchery extends InputWidget
         $options = Json::encode($this->clientOptions);
 
         $js[] = ";var el_{$this->getId()} = document.querySelector('{$this->selector}');";
-        $js[] = "var sw_{$this->getId()} = new Switchery(el_{$this->getId()}, {$options});";
+        $js[] = "var sw_{$this->getId()} = el_{$this->getId()}.switchery = new Switchery(el_{$this->getId()}, {$options});";
 
         if (!empty($this->clientEvents)) {
             foreach ($this->clientEvents as $event => $handler) {
